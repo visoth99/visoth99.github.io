@@ -1,0 +1,11 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
