@@ -1,0 +1,10 @@
+
+.container{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.navBar{
+    display: flex;
+    justify-content: space-evenly;
+}

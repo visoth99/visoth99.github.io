@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fancify my text</title>
+    <link rel="stylesheet" href="/styles/fancifyMyText.css">
+</head>
+<body>
+    <div class="navBar">
+        <h1>Fancify my text</h1>
+        <h3><a href="/visoth99.github.io/index.html">back to home</a></h3>
+    </div>
+    <div>
+        <fieldset>
+            <legend>Text: </legend>
+            <textarea rows="4" cols="30" id="textArea"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Fancify: </legend>
+            <div class="buttonGrid">
+                <button onclick="bigger()">Bigger!</button>
+                <button onclick="moo()">Moo</button>
+            </div>
+            <form>
+                <input onchange="handlerOnChange(this)" type="radio" id="FancyShmancy" value="FancyShmancy" name="textChanging">
+                <label for="FancyShmancy">FancyShmancy</label><br>
+                <input onchange="handlerOnChange(this)" type="radio" id="BoringBetty" value="BoringBetty" name="textChanging">
+                <label for="BoringBetty">BoringBetty</label>
+            </form>
+        </fieldset>
+    </div>
+    <script src="/controllers/fancifyMytext.js"></script>
+</body>
+</html>
