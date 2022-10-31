@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Implement Cookies</title>
+    <link rel="stylesheet" href="/styles/implementCookies.css">
+</head>
+<body>
+    <header>
+        <div class="navBar">
+            <h1>Implement Cookies</h1>
+            <h3><a href="/visoth99.github.io/index.html">back to home</a></h3>
+        </div>
+    </header>
+    <main>
+        <div id="result-area">
+            <p><b>Select to change color</b></p>
+            <select style="text-align: center" id="selectOptions" onchange="handleOnChange(this)">
+                <option value="Select">Select Background Color</option>
+                <option value="Red">Red</option>
+                <option value="Blue">Blue</option>
+                <option value="Yellow">Yellow</option>
+                <option value="Purple">Purple</option>
+            </select>
+        </div>
+
+    </main>
+    <footer id="result">
+        <p>The Cookie:&nbsp</p><p id="cookieResult">Null</p>
+    </footer>
+    <script src="/controllers/implementCookies.js"></script>
+</body>
+</html>
